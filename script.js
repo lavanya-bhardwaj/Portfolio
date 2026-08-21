@@ -1,7 +1,4 @@
-/* ==========================================================
-   EDIT ME — swap in your real projects, bio, and links.
-   Each key below matches a data-folder value in index.html.
-   ========================================================== */
+
 const folderContent = {
   projects: `
     <p class="eyebrow">no. 01 — things i've built</p>
@@ -44,7 +41,7 @@ const folderContent = {
   `,
 };
 
-/* ========================================================== */
+
 
 const overlay = document.getElementById('overlay');
 const paperContent = document.getElementById('paperContent');
