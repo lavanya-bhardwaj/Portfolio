@@ -1,6 +1,4 @@
-/* ==========================================================
-   TOKENS
-   ========================================================== */
+
 :root {
   --ink:        #15100d;   /* near-black, warm */
   --ink-soft:   #1f1611;   /* lifted black for layering */
@@ -38,9 +36,6 @@ button { font: inherit; color: inherit; }
   outline-offset: 4px;
 }
 
-/* ==========================================================
-   HERO
-   ========================================================== */
 .hero {
   position: relative;
   min-height: 100vh;
@@ -205,9 +200,6 @@ button { font: inherit; color: inherit; }
   50%      { transform: translateY(6px); }
 }
 
-/* ==========================================================
-   DESK / FOLDERS
-   ========================================================== */
 .desk {
   position: relative;
   background: var(--paper);
@@ -266,7 +258,6 @@ button { font: inherit; color: inherit; }
   margin: 0 auto;
 }
 
-/* --- folder --- */
 .folder {
   position: relative;
   width: 250px;
@@ -342,7 +333,7 @@ button { font: inherit; color: inherit; }
   margin-top: 0.35rem;
 }
 
-/* per-folder trinkets */
+
 .folder-tape,
 .folder-pin,
 .folder-clip {
@@ -392,9 +383,6 @@ button { font: inherit; color: inherit; }
   opacity: 0.5;
 }
 
-/* ==========================================================
-   OVERLAY / PAPER MODAL
-   ========================================================== */
 .overlay {
   position: fixed;
   inset: 0;
@@ -534,9 +522,6 @@ button { font: inherit; color: inherit; }
   text-transform: uppercase;
 }
 
-/* ==========================================================
-   RESPONSIVE
-   ========================================================== */
 @media (max-width: 640px) {
   .hero { align-items: center; text-align: center; padding: 8vh 6vw; }
   .pre-name { margin-left: 0; }
@@ -547,9 +532,6 @@ button { font: inherit; color: inherit; }
   .desk-footer { margin-top: 4rem; }
 }
 
-/* ==========================================================
-   REDUCED MOTION
-   ========================================================== */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .star, .scroll-cue svg { animation: none; }
