@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lavv — Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,700&family=Caveat:wght@500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HERO — a night desk. scattered hand-drawn stars, name written
+     across the dark like it's been scrawled in a notebook.
+     ============================================================ -->
+<section class="hero" id="hero">
+
+  <!-- scattered sparkle stars — purely decorative, aria-hidden -->
+  <div class="stars" aria-hidden="true">
+    <svg class="star s1" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s2" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s3" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s4" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s5" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s6" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s7" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s8" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s9" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s10 dot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/></svg>
+    <svg class="star s11 dot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.4"/></svg>
+    <svg class="star s12 dot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/></svg>
+    <svg class="star s13" viewBox="0 0 24 24"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+    <svg class="star s14 dot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/></svg>
+  </div>
+
+  <div class="hero-inner">
+    <p class="pre-name">hi, i am</p>
+
+    <h1 class="name" data-text="Lavanya Bhardwaj">
+      <span class="name-shadow" aria-hidden="true">Lavanya Bhardwaj</span>
+      <span class="name-front">Lavanya Bhardwaj</span>
+    </h1>
+
+    <svg class="underline-scribble" viewBox="0 0 320 30" aria-hidden="true">
+      <path d="M4 18 C 60 4, 140 28, 200 12 C 240 2, 280 20, 316 8" />
+    </svg>
+
+    <div class="stamp">
+      <span>code&nbsp;·&nbsp;stage&nbsp;·&nbsp;design</span>
+    </div>
+  </div>
+
+  <a class="scroll-cue" href="#folders" aria-label="Scroll down to see more">
+    <span class="scroll-cue-text">scroll</span>
+    <svg viewBox="0 0 24 40" aria-hidden="true">
+      <path d="M12 2 V34 M4 26 L12 36 L20 26" />
+    </svg>
+  </a>
+</section>
+
+<!-- ============================================================
+     DESK — the same page, but it's day now. everything lives in
+     folders scattered across a paper surface.
+     ============================================================ -->
+<section class="desk" id="folders">
+
+  <div class="desk-texture" aria-hidden="true"></div>
+
+  <h2 class="desk-heading">
+    poke around
+    <svg class="heading-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z"/></svg>
+  </h2>
+  <p class="desk-sub">everything's unlabeled until you look. click one.</p>
+
+  <div class="folders-grid">
+
+    <button class="folder folder--projects" data-folder="projects" aria-haspopup="dialog">
+      <span class="folder-tape" aria-hidden="true"></span>
+      <span class="folder-back" aria-hidden="true"></span>
+      <span class="folder-front">
+        <span class="folder-tab">projects</span>
+        <span class="folder-index">no. 01</span>
+      </span>
+    </button>
+
+    <button class="folder folder--about" data-folder="about" aria-haspopup="dialog">
+      <span class="folder-pin" aria-hidden="true"></span>
+      <span class="folder-back" aria-hidden="true"></span>
+      <span class="folder-front">
+        <span class="folder-tab">about me</span>
+        <span class="folder-index">no. 02</span>
+      </span>
+    </button>
+
+    <button class="folder folder--contact" data-folder="contact" aria-haspopup="dialog">
+      <span class="folder-clip" aria-hidden="true"></span>
+      <span class="folder-back" aria-hidden="true"></span>
+      <span class="folder-front">
+        <span class="folder-tab">contact</span>
+        <span class="folder-index">no. 03</span>
+      </span>
+    </button>
+
+  </div>
+
+  <p class="desk-footer">made with too much coffee &amp; too many tabs open — 2026</p>
+</section>
+
+<!-- ============================================================
+     the paper that slides out when a folder opens
+     ============================================================ -->
+<div class="overlay" id="overlay">
+  <div class="overlay-backdrop" data-close></div>
+  <div class="paper" id="paper" role="dialog" aria-modal="true" aria-labelledby="paperTitle">
+    <span class="paper-tape paper-tape--left" aria-hidden="true"></span>
+    <span class="paper-tape paper-tape--right" aria-hidden="true"></span>
+    <button class="paper-close" data-close aria-label="Close">
+      <svg viewBox="0 0 24 24"><path d="M4 4 L20 20 M20 4 L4 20" /></svg>
+    </button>
+    <div class="paper-content" id="paperContent">
+      <!-- injected by script.js -->
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
